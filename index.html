@@ -8,36 +8,41 @@
 </head>
 <body>
     <div class="page-container">
-        <div class="left-side">
-            <div class="avatar">
-                <img src="images/selfie.jpg" alt="Photo" class="image">   
-            </div>    
+        <aside>
+            <figure>
+                <img src="images/selfie.jpg" alt="Photo" class="image"> 
+                <figcaption>Фото розробника резюме</figcaption> 
+            </figure> 
             <div class="gen-info">
                 <div class="title"><h2>Особисті дані</h2></div>
                 <div class="data">
-                    <ul>
-                        <li><b>Ім'я:</b>
-                            <ul><li>Арсен Дячук</li></ul>
-                        </li>
-                        <li><b>Адреса:</b></li>
-                        <li>вул.Довженка, буд. 1, кв 69 76000 Івано-Франківськ</li>
-                        <li><b>Номер телефону:</b></li>
-                        <li>+380971301578</li>
-                        <li><b>Email:</b></li>
-                        <li>okurwabober@gmail.com</li>
-                        <li><b>Дата народження:</b></li>
-                        <li>18.11.2005</li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li><b>Ім'я:</b>
+                                <ul><li>Арсен Дячук</li></ul>
+                            </li>
+                            <li><b>Адреса:</b></li>
+                            <li>вул.Довженка, буд. 1, кв 69 76000 Івано-Франківськ</li>
+                            <li><b>Номер телефону:</b></li>
+                            <li>+380971301578</li>
+                            <li><b>Email:</b></li>
+                            <li>okurwabober@gmail.com</li>
+                            <li><b>Дата народження:</b></li>
+                            <li>18.11.2005</li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="title"><h2>Інтереси</h2></div>
                 <div class="data">
-                    <ol>
-                        <li><b>Вивчення мов</li>
-                        <li>Ескізи</li>
-                        <li>Читання книг</li>
-                        <li>Фотографії</li>
-                        <li>Прогулянки на природі</b></li>
-                    </ol>
+                    <nav>
+                        <ol>
+                            <li><b>Вивчення мов</li>
+                            <li>Ескізи</li>
+                            <li>Читання книг</li>
+                            <li>Фотографії</li>
+                            <li>Прогулянки на природі</b></li>
+                        </ol>
+                    </nav>
                 </div>
                 <div class="title"><h2>Мови</h2></div>
                 <div class="data">
@@ -57,45 +62,60 @@
                     </table>
                 </div>
             </div>
-        </div>
-
+        </aside>
         <div class="right-side">
-            <div class="name"><h1>Арсен Дячук</h1></div>
-            <div class="abt"><h2>Освіта</h2></div>
-            <div class="more-info">
-                <div class="under-title"><h3>Молодший бакалавр</h3></div>
-                <div class="date">вер 2021 - теп. час</div>
-                    <div>
-                        <em>Фаховий коледж електронних приладів Івано-Франківського 
-                        національного технічного університету нафти і газу, Івано-Франківськ</em>
-                        <p>Спеціальність &#34Інженерія програмного забезпечення&#34</p>
-                    </div>
-                <div class="under-title"><h3>Загальна середня освіта</h3></div>
-                <div class="date">вер 2012 - трав 2021</div>
-                    <div><em>Ліцей №10 Івано-Франківської міської ради, Івано-Франківськ</em></div>
-            </div>
-            <div class="abt"><h2>Курси</h2></div>
-            <div class="more-info">
-                <div class="under-title"><h3>ESOL Courses(16-18)</h3></div>
-                <div class="date">січ 2024 - теп. час</div>
-                    <div><p><em>Technical Skills Academy (Лондон)</em></p></div>
-                <div class="under-title"><h3>Курси Веб-дизайну</h3></div>
-                <div class="date">вер 2018 - трав 2020</div>
-                    <div><em>ФКЕП ІФНТУНГ (Івано-Франківськ)</em></div>
-            </div>
-            <div class="abt"><h2>Навички</h2></div>
-            <div class="more-info">
-                <strong>HTML, CSS, JavaScript, C++</strong>
-            </div>
-            <div class="abt"><h2>Портфоліо</h2></div>
-            <div class="more-info">
-                <ol class="custom-info">
-                    <li><a href="HTML-CSS/lab1.html">Веб-сторінки мовою HTML</a></li>
-                    <li><a href="#">Project 2</a></li>
-                    <li><a href="#">Project 3</a></li>
-                    <li><a href="#">Project 4</a></li>
-                </ol>
-            </div>
+            <header>
+                    <div><h1>Арсен Дячук</h1></div>
+            </header>
+            <main>
+                <section>
+                    <article>
+                        <div class="abt"><h2>Освіта</h2></div>
+                        <div class="more-info">
+                            <div class="under-title"><h3>Молодший бакалавр</h3></div>
+                            <div class="date"><time>вер 2021</time> - <time>теп. час</time></div>
+                                <div>
+                                    <em>Фаховий коледж електронних приладів Івано-Франківського 
+                                    національного технічного університету нафти і газу, Івано-Франківськ</em>
+                                    <p>Спеціальність &#34Інженерія програмного забезпечення&#34</p>
+                                </div>
+                            <div class="under-title"><h3>Загальна середня освіта</h3></div>
+                            <div class="date"><time>вер 2012</time> - <time>трав 2021</time></div>
+                                <div><em>Ліцей №10 Івано-Франківської міської ради, Івано-Франківськ</em></div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="abt"><h2>Курси</h2></div>
+                        <div class="more-info">
+                            <div class="under-title"><h3>ESOL Courses(16-18)</h3></div>
+                            <div class="date"><time>січ 2024</time> - <time>теп. час</time></div>
+                                <div><p><em>Technical Skills Academy (Лондон)</em></p></div>
+                            <div class="under-title"><h3>Курси Веб-дизайну</h3></div>
+                            <div class="date"><time>вер 2018</time> - <time>трав 2020</time></div>
+                                <div><em>ФКЕП ІФНТУНГ (Івано-Франківськ)</em></div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="abt"><h2>Навички</h2></div>
+                        <div class="more-info">
+                            <strong>HTML, CSS, JavaScript, C++</strong>
+                        </div>
+                    </article>
+                </section>
+            </main>
+            <footer>
+                <div class="abt"><h2>Портфоліо</h2></div>
+                <div class="more-info">
+                    <nav>
+                        <ol class="custom-info">
+                            <li><a href="HTML-CSS/lab1.html">Веб-сторінки мовою HTML</a></li>
+                            <li><a href="#">Project 2</a></li>
+                            <li><a href="#">Project 3</a></li>
+                            <li><a href="#">Project 4</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </footer>
         </div>
     </div>
 </body>
