@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Signup Form</title>
+</head>
+<body>
+    <div class="body">
+        <h1>Signup</h1>
+        <form action="backend.html" method="get" autocomplete="on">
+            <input type="text" placeholder="Enter Your Username" required size="30">
+            <input type="email" placeholder="Enter Your Email" required size="30">
+            <input type="tel" placeholder="Enter Your Phone Number" required size="30">            
+            <div class="pass-container">
+                <input type="password" id="password" name="Password" placeholder="Enter Your Password" required size="30">
+                <img src="images/Screenshot_6.jpg" id="togglePassword" alt="Toggle Password Visibility" class="toggle-icon">       
+            </div>
+            <button type="submit">Signup</button>
+        </form>
+
+        <div class="afterform">         
+            <div class="enter-in">
+                Already have an account? <a href="index2.html">Login</a>
+            </div>
+            <div class="container"> 
+                <div class="line"></div>
+                    <span class="text">Or</span>
+                <div class="line"></div>
+            </div>    
+                <button class="btn-facebook">
+                    <img src="images/icon-facebook.png" alt="Facebook Icon">
+                    <a href="https://www.facebook.com">Login with Facebook</a>
+                </button>   
+                <button class="btn-google">
+                    <img src="images/icon-google.png" alt="Google Icon">
+                    <a href="https://www.google.com">Login with Google</a>
+                </button>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>

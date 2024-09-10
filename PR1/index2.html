@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="body">
+        <h1>
+            Login<br>
+            Welcome back!
+        </h1>
+
+        <form action="backend.html" method="get" autocomplete="on"></form>
+            <input type="text" placeholder="Enter Your Username / Email" required size="30">           
+            <div class="pass-container">
+                <input type="password" id="password" name="Password" placeholder="Enter Your Password" required size="30">
+                <img src="images/Screenshot_6.jpg" id="togglePassword" alt="Toggle Password Visibility" class="toggle-icon">        
+            </div>
+            <div class="forgot-pass">
+                <a href="https://support.google.com/accounts/answer/41078?hl=en&co=GENIE.Platform%3DAndroid">Forgot password?</a>
+            </div>        
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="afterform"></div>  
+            <div class="enter-in">
+                Do not have an account? <a href="index.html">Signup</a>
+            </div>
+            <div class="container"> 
+                <div class="line"></div>
+                    <span class="text">Or</span>
+                <div class="line"></div>
+            </div> 
+                <button class="btn-facebook">
+                    <img src="images/icon-facebook.png" alt="Facebook Icon">
+                    <a href="https://www.facebook.com">Login with Facebook</a>
+                </button>   
+                <button class="btn-google">
+                    <img src="images/icon-google.png" alt="Google Icon">
+                    <a href="https://www.google.com">Login with Google</a>
+                </button>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
