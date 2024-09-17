@@ -121,3 +121,20 @@ a{
     width: 20px;
     height: 20px;
 }
+
+@media (max-width: 480px) {
+.body{
+    width: 70%;
+    margin: 100px auto 0;
+}
+
+input{
+    width: 92.5%;
+    display: block;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border-width: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+}
