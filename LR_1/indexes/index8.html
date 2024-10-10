@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Дячук ПІ-21-01</title>
+    <script>
+        function findSeason() {
+            var month = prompt("Enter the month number (1-12):");
+            var season;
+            var seasons = ["Winter", "Winter", "Spring", "Spring", "Spring", "Summer", "Summer", "Summer", "Fall", "Fall", "Fall", "Winter"];
+            month = parseInt(month);
+            if (month >= 1 && month <= 12) {
+                season = seasons[month - 1];
+            } else {
+                season = "Incorrect month number";
+            }
+            alert("Season: " + season);
+        }
+    </script>
+</head>
+<body bgcolor="white" onload="findSeason()">
+    <h1>JavaScript Test</h1>
+    <hr>
+</body>
+</html>
