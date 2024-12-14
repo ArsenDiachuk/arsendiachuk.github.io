@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country and Cities</title>
+</head>
+<body>
+  <h3>Виберіть країну та місто:</h3>
+  
+  <select name="country" id="country" onchange="updateCities()">
+    <option value="" disabled selected>Виберіть країну</option>
+    <option value="aus">Ukraine</option>
+    <option value="jap">Poland</option>
+    <option value="sar">USA</option>
+  </select>
+  
+  <select name="cities" id="cities" onchange="displaySelection()">
+    <option value="" disabled selected>Виберіть місто</option>
+  </select>
+
+  <p id="output"></p>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
